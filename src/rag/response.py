@@ -23,7 +23,7 @@ def response_node(state: GraphState) -> GraphState:
         return state
  
     # --------------------------------------------------
-    # FAQ DETECTION (IMPORTANT)
+    # FAQ DETECTION 
     # --------------------------------------------------
     faq_docs = [
         d for d in state.retrieved_docs
